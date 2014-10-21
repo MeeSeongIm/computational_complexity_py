@@ -2,7 +2,7 @@
 # this code verifies the computational time for DFT using FFT algorithm by factorizing the transition matrix  
 # when the signal length is a power of two. 
 
-# plug in x for N = 2^x. The code aims to produce transition matrices, each of which has computation time N.  
+# plug in x in N = 2^x. The code aims to produce transition matrices, each of which has computation time N.  
 # This code will ultimately verify that FFT computes DFT from a configuration space to the frquency space 
 # asymptotically in O(N Log_2(N))-time.  
 
